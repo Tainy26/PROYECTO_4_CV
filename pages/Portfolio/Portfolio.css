@@ -1,0 +1,140 @@
+#portfolio {
+    width: auto;
+    height: 90vh;
+    padding: 95px 40px 0px 40px;
+}
+
+.portfolio-container {
+    display: flex;
+    height: 90%;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    max-width: 500px;
+    height: auto;
+    font-size: 14px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: var(--number-color);
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Imagen principal del proyecto */
+.sources img {
+    margin: 0px 10px;
+    width: 350px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.sources {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.techs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.techs img {
+    width: 24px;
+    height: 24px;
+}
+
+.project-item h2 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 800;
+    color: var(--text-color);
+    margin: 15px 0px 5px 15px;
+}
+
+.project-item p {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-color);
+    margin: 5px 15px;
+}
+
+
+.external-sources{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.project-links {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 5px 5px;
+}
+
+.link-icon img {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.2s ease;
+}
+
+.link-icon:hover {
+  transform: scale(1.2);
+}
+
+.project-links img{
+    width: 20px;
+    height: 30px;
+   
+}
+
+.project-links a{
+    line-height: 0;
+    width: auto;
+}
+
+@media  screen and (min-width: 834px) and (max-width: 1366px){
+#portfolio{
+    height: auto;
+}
+}
+
+@media  screen and (max-width: 430px){
+    #portfolio{
+        width: 410px;
+        height: auto;
+        padding: 100px 10px 40px 10px;
+    }
+
+    .sources > img {
+    margin: 0px 10px;
+    width: 290px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+    }
+
+}

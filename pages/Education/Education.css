@@ -1,0 +1,99 @@
+#education {
+    color: black;
+    width: auto;
+    height: 90vh;
+    padding: 95px 40px 0px 40px;
+}
+
+.education-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+
+.education-item {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    max-width: 550px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: var(--number-color);
+}
+
+.education-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.education-item p {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--text-color);
+    margin: 5px 0px 5px 15px;
+}
+.education-item h1{
+    font-size: 19px;
+    color: var(--title-color);
+    margin: 5px 0px 5px 15px;
+
+}
+
+.education-item ul{
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.top-content{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 15px 0px 5px 2px;
+}
+
+.top-content h3{
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--text-color);
+    padding-left: 15px;
+}
+
+.top-content img{
+    width: 70px;
+    height: 30px;   
+    padding: 5px 20px;
+    transition: transform 0.3s ease;
+    object-fit: contain;
+}
+
+.top-content img:hover {
+    transform: scale(1.2);
+}
+
+
+@media  screen and (min-width: 834px) and (max-width: 1366px){
+#education{
+    height: auto;
+}
+}
+
+
+@media  screen and (max-width: 430px){
+    #education{
+        color: black;
+        width: 410px;
+        height: auto;
+        padding: 100px 10px 0px 10px;
+    }
+
+    .education-item h1{
+        font-size: 16px;
+    }
+}

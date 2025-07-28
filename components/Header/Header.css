@@ -1,0 +1,96 @@
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: 9;
+    text-transform: uppercase;
+
+}
+#scroll-header{
+    transition: background-color 0.3s, box-shadow 0.3s;
+    background-color: var(--background-color);
+}
+
+#scroll-header.scrolled{
+    background-color: var(--background-color);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.header-container h2{
+    margin: 0;
+    font-size: 64px;
+    height: auto;
+    width: auto;
+    font-weight: bolder;
+    padding-left: 30px;
+    color: var(--name-color);
+}
+
+.header-container img{
+    width: 100px;
+    height: auto;
+}
+
+
+.right-content{
+    display: flex;
+    align-items: center;
+    justify-content: content;
+    width: auto;
+    padding-right: 25px;
+    gap: 10px;
+
+}
+
+
+#logo-page{
+    width: 50px;
+}
+
+
+#theme-toggle {
+    width: 65px;
+    cursor: pointer;
+}
+
+body.dark-theme #theme-toggle:hover {
+    box-shadow: 0 0px 15px 4px rgb(206, 204, 204);
+    border-radius: 50px;
+    transition: box-shadow 0.3s ease;
+}
+
+body:not(.dark-theme) #theme-toggle:hover {
+    box-shadow: 0 0px 15px 4px rgb(90, 87, 87);
+    border-radius: 50px;
+    transition: box-shadow 0.3s ease;
+}
+
+
+@media  screen and (max-width: 430px){
+    .header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    padding-top: 10px;
+    background-color: blue;
+}
+
+    .header-container h2{
+    font-size: 32px;
+}
+
+    #logo-page{
+    width: 45px;
+}
+    #theme-toggle {
+    width: 55px;
+    cursor: pointer;
+}
+
+
+
+}

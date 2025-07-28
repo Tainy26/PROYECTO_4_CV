@@ -1,0 +1,153 @@
+#about{
+    color: black;
+    width: auto;
+    height: 90vh;
+    padding: 95px 40px 0px 40px;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100%;
+}
+
+
+.description span{
+    color: rgb(255, 149, 0);
+}
+
+.description{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.description h1{
+    font-size: 32px;
+    color: var(--title-color);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.description p{
+    font-size: 17px;
+    color: var(--text-color);
+    text-align: center;
+    margin: 0;
+}
+
+.knowledge-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.knowledge-container span{
+    color: rgb(0, 162, 255);
+    font-size: 30px;
+}
+
+.knowledge-container h2{
+    color: var(--text-color);
+    font-size: 25px;
+    padding-top: 40px;
+    position: relative;
+    z-index: 5;
+}
+
+.tech-list{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 0;
+    cursor: pointer;
+}
+.tech-list img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    position: relative;
+    z-index: 5;
+}
+
+
+.html { --clr: #ff5b02; }
+.css { --clr: #0232FF; }
+.javascript { --clr: #e4da21; }
+.bootstrap { --clr: #cc02ff; }
+.mysql { --clr: #49f8f2; }
+.git { --clr: #ee6b54; }
+.vite { --clr: #6d0e3d; }
+.java { --clr: #291ac7; }
+.bootstrap { --clr: #cc02ff; }
+.react { --clr: #11bdb7; }
+.tailwind { --clr: #116dbd; }
+.nodejs { --clr: #35d452; }
+
+
+.tech-list img {
+  filter: none;
+}
+
+.tech-list li:hover img {
+  filter: drop-shadow(0 0 4px var(--clr)) drop-shadow(0 0 8px var(--clr));
+  transform: scale(1.1);
+}
+
+@media  screen and (min-width: 834px) and (max-width: 1366px){
+.tech-list img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    position: relative;
+    z-index: 5;
+}
+
+#about{
+    height: auto;
+}
+}
+
+@media  screen and (max-width: 430px){
+    #about{
+    color: black;
+    width: 410px;
+    height: auto;
+    padding: 100px 10px 0px 10px;
+}
+
+.description{
+    padding-top: 40px;
+}
+
+.description h1{
+    font-size: 22px;
+}
+
+.description p{
+    font-size: 12px;
+    
+}
+
+.knowledge-container h2{
+    font-size: 20px;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.tech-list img {
+    width: 30px;
+    height: 30px;
+}
+
+.tech-list{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+}

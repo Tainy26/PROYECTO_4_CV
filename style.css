@@ -1,0 +1,35 @@
+:root {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+
+  --background-color: #FBFBFB;
+  --text-color: #000000;
+  --title-color: #000000;
+  --number-color: #F1F1F1;
+  --name-color: #333333;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+  font-family: "Roboto", sans-serif;
+}
+
+.dark-theme{
+  --background-color: #343434;
+  --text-color: #e0e0e0;
+  --title-color: #ffffff;
+  --number-color: #515151;
+  --name-color: #F1F1F1;
+}
+
+html, body{
+  scroll-behavior: smooth;
+}
+
+html{
+    overflow-x: hidden;
+}

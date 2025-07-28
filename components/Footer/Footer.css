@@ -1,0 +1,83 @@
+.facebook { --clr: #0232FF; }
+.instagram { --clr: #ff02ea; }
+.github { --clr: #5d5a5d; }
+.linkedin { --clr: #029eff; }
+.twitter { --clr: #5d5a5d; }
+
+.img-footer img {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s ease;
+  filter: none;
+}
+
+.img-footer a:hover img {
+  filter: drop-shadow(0 0 4px var(--clr)) drop-shadow(0 0 8px var(--clr));
+  transform: scale(1.1);
+}
+
+footer {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: auto;
+  height: auto;
+  position: fixed;
+  z-index: 5;
+}
+
+.email {
+  text-decoration: none;
+  color: var(--text-color);
+  border-bottom: 2px var(--text-color) solid;
+  width: 210px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.img-footer {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.img-footer a {
+  text-decoration: none;
+}
+
+
+@media  screen and (max-width: 430px){
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.footer-container {
+  gap: 10px;
+  position: relative;
+}
+
+.img-footer img {
+  width: 20px;
+  height: 20px;
+}
+
+.email {
+  font-size: 14px;
+  width: auto;
+}
+
+.img-footer {
+  gap: 15px;
+}
+}

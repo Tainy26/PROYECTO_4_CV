@@ -1,0 +1,116 @@
+.nav-container{
+    width: 230px;
+    height: 100%;
+    display: flex;
+    padding-top: 70px;
+    padding-left: 40px;
+    position: fixed;
+    z-index: 5;
+}
+
+#scroll-nav{
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: none;
+}
+
+#scroll-nav.scrolled{
+    box-shadow: 1px 0px 6px rgba(0,0,0,0.2);
+}
+
+.nav-container ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 210px;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+}
+.nav-container > .nav2{
+    display: none;
+}
+
+.nav-container li{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    cursor: pointer;
+    font-weight: 400;
+    
+}
+.nav-container a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.nav-container img{
+    width: 15px;
+    height: 15px;
+}
+
+.nav-container li {
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-container li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background-color: var(--text-color);
+    transition: width 0.5s ease-in-out;
+}
+
+.nav-container li:hover::after {
+    width: 100%;
+}
+
+.nav-container li.active::after {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 430px) {
+    .nav-container{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: left;
+    position: fixed;
+    z-index: 15;
+    padding-top: 0;
+    padding-left: 0;
+    border-radius: 15px;
+    background-color: var(--background-color);
+}
+    .nav-container > .nav1{
+        display: none;
+    }
+
+    .nav-container > .nav2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 250px;
+        height: 40px;
+        gap: 25px;
+    }
+
+    .nav2 img{
+        width: 25px;
+        height: 25px;
+    }
+
+
+}
