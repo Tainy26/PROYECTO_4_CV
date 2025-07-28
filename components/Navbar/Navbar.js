@@ -4,7 +4,7 @@ export const Navbar = () => `
  <div id="scroll-nav" class="nav-container">
     <ul class="nav1">
       <li class="home">
-        <a href="#app">
+        <a href="/">
         Home
         <img
           class="theme-image" 
