@@ -24,7 +24,7 @@ export const Content = () => `
 
               <div class="number-page">
               <p>01</p>
-              <a href="#" id="next-page-btn">
+              <a href="#about" id="next-page-btn">
               <img 
                 class="theme-image" 
                 data-light="/icons/page.webp"
