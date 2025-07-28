@@ -27,6 +27,7 @@
     align-items: center;
     width: 560px;
     height: auto;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 .titles-container{
@@ -67,7 +68,7 @@
     height: 133px;
     color: var(--text-color);
     font-size: 12px;
-    padding: 15px 0px 15px 40px;
+    padding: 35px 0px 15px 40px;
 
 }
 
@@ -95,7 +96,7 @@
     position: relative;
     align-items: center;
     justify-content: center;
-    top: 300px ;
+    top: 330px ;
     right: 125px;
     line-height: 0;
     width: 200px;
