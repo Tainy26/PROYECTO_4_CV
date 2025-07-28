@@ -91,6 +91,10 @@ body:not(.dark-theme) #theme-toggle:hover {
     cursor: pointer;
 }
 
+.right-content{
+    padding-right: 40px;
+}
+
 
 
 }

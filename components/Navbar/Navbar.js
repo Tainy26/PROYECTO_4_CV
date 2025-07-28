@@ -4,7 +4,7 @@ export const Navbar = () => `
  <div id="scroll-nav" class="nav-container">
     <ul class="nav1">
       <li class="home">
-        <a href="/">
+        <a href="#app">
         Home
         <img
           class="theme-image" 
@@ -62,7 +62,7 @@ export const Navbar = () => `
 
     <ul class="nav2">
       <li class="home">
-        <a href="home">
+        <a href="#app">
         <img
           class="theme-image" 
           data-light="/icons/home.webp"
