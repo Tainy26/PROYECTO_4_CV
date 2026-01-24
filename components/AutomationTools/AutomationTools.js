@@ -1,5 +1,5 @@
 import "../../pages/About/About.css";
-import { automationToolsList } from "../../data/automationTools";
+import { automationToolsList } from "../../data/automationtools";
 
 export const AutomationTool = () => {
   const automationToolsHTML = automationToolsList.map(automationTool => `
