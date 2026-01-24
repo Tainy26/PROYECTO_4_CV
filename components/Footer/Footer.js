@@ -31,7 +31,7 @@ export const Footer = () => `
           alt="GitHub"
         />
       </a>
-      <a href="#" class="linkedin" target="_blank" rel="noopener">
+      <a href="https://www.linkedin.com/in/cdntapia" class="linkedin" target="_blank" rel="noopener">
         <img 
           class="theme-image"
           src="/icons/linkedin.webp"

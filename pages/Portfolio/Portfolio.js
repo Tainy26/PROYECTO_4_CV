@@ -42,7 +42,7 @@ export const Portfolio = () => {
         </a>` : ''}
 
       ${project.link ? `
-        <a href="https://${project.link}" target="_blank" rel="noopener">
+        <a href="${project.link}" target="_blank" rel="noopener">
           <img 
             class="theme-image link-icon"
             src="${linkIcons.link.light}"

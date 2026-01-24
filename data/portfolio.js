@@ -6,7 +6,7 @@ export const portfolioList = [
         image: "/images/pccom.webp",
         tech: ["HTML5", "CSS3"],
         github: "http://github.com/myuser/proyecto1",
-        link: "www.proyecto1.com",
+        link: "https://pccomponenteslanding.vercel.app"
     },
      {
         id: 2,
@@ -15,7 +15,7 @@ export const portfolioList = [
         image: "/images/spacex.webp",
         tech: ["HTML5", "CSS3"],
         github: "https://github.com/Tainy26/PROYECTO_1.git",
-        link: "https://primerproyectoprometeo.netlify.app",
+        link: "https://spacexlanding.vercel.app"
     },
      {
         id: 3,
@@ -24,7 +24,7 @@ export const portfolioList = [
         image: "/images/pinterest.webp",
         tech: ["HTML5", "CSS3", "JavaScript"],
         github: "https://github.com/Tainy26/PROYECTO_3.git",
-        link: "https://proyect-3-pinterest.vercel.app",
+        link: "https://proyect-3-pinterest.vercel.app"
     },
      {
         id: 4,
@@ -33,7 +33,25 @@ export const portfolioList = [
         image: "/images/cv.webp",
         tech: ["HTML5", "CSS3", "JavaScript"],
         github: "https://github.com/Tainy26/PROYECTO_4_CV.git",
-        link: "www.proyecto1.com",
+        link: "https://proyect-3-pinterest.vercel.app"
+    },
+    {
+        id: 5,
+        title: "Sueños Valenti",
+        description: "This project consists of creating a small, responsive CV using JavaScript components. Built with VITE, the project follows a component-based architecture to ensure modularity and maintainability.",
+        image: "/images/cv.webp",
+        tech: ["HTML5", "CSS3", "JavaScript"],
+        github: "https://github.com/Tainy26/PROYECTO_4_CV.git",
+        link: "https://proyect-3-pinterest.vercel.app"
+    },
+    {
+        id: 6,
+        title: "We Are Mamba",
+        description: "This project consists of creating a small, responsive CV using JavaScript components. Built with VITE, the project follows a component-based architecture to ensure modularity and maintainability.",
+        image: "/images/cv.webp",
+        tech: ["HTML5", "CSS3", "JavaScript"],
+        github: "https://github.com/Tainy26/PROYECTO_4_CV.git",
+        link: "https://proyect-3-pinterest.vercel.app"
     },
     
 ];

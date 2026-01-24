@@ -27,6 +27,6 @@ export const Experience = () => {
               <div class="experience-container">
                 ${experienceHTML}
               </div>
-        </section>
+    </section>
   `;
 };

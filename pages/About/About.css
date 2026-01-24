@@ -1,6 +1,6 @@
 #about{
+    gap: 40px;
     color: black;
-    width: auto;
     height: 90vh;
     padding: 95px 40px 0px 40px;
 }
@@ -8,12 +8,14 @@
 .about-container{
     display: flex;
     flex-direction: column;
+    gap: 40px;
     width: auto;
     height: 100%;
 }
 
 
-.description span{
+.about-container > .description span{
+    font-size: 38px;
     color: rgb(255, 149, 0);
 }
 
@@ -39,41 +41,47 @@
     margin: 0;
 }
 
+#knowledge{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+    height: auto;
+}
+
+#knowledge > :last-child:nth-child(odd) {
+  grid-column: span 2;
+}
+
+#frontend, #backend, #database, #clouddevops, #automationTools{
+    border-radius: 5px;
+    background-color: var(--number-color);
+}
+
+
 .knowledge-container{
+    text-transform: uppercase;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    width: 100%;
+    height: auto;
 }
 
-.knowledge-container span{
-    color: rgb(0, 162, 255);
-    font-size: 30px;
-}
-
-.knowledge-container h2{
+.knowledge-container h1{
+    margin: 0;
     color: var(--text-color);
-    font-size: 25px;
-    padding-top: 40px;
-    position: relative;
-    z-index: 5;
 }
 
-.tech-list{
-    list-style: none;
-    display: flex;
-    gap: 40px;
-    padding: 0;
-    cursor: pointer;
-}
-.tech-list img {
-    width: 60px;
-    height: 60px;
-    object-fit: contain;
-    position: relative;
-    z-index: 5;
+.knowledge-container span:nth-of-type(1),span:nth-of-type(2), span:nth-of-type(4){
+    color: rgb(0, 162, 255);
+    font-size: 20px;
 }
 
+.knowledge-container span:nth-of-type(3){
+    color: rgb(223, 4, 190);
+    font-size: 20px;
+}
 
 .html { --clr: #ff5b02; }
 .css { --clr: #0232FF; }
@@ -82,25 +90,46 @@
 .mysql { --clr: #49f8f2; }
 .git { --clr: #ee6b54; }
 .vite { --clr: #6d0e3d; }
-.java { --clr: #291ac7; }
-.bootstrap { --clr: #cc02ff; }
+.java { --clr: #8b82f5; }
 .react { --clr: #11bdb7; }
 .tailwind { --clr: #116dbd; }
 .nodejs { --clr: #35d452; }
+.figma { --clr: #d43538; }
+.apis { --clr: #35bcd4; }
+.json { --clr: #5c5d5c; }
+.xml { --clr: #d4ac35; }
+.chatbot { --clr: #b1b5ff; }
+.postgresql { --clr: #35a2d4; }
+.aws { --clr: #878787; }
+.docker { --clr: #4beded; }
+.n8n { --clr: #ee36d8; }
+.python { --clr: #d5ed38; }
 
 
-.tech-list img {
-  filter: none;
-}
 
 .tech-list li:hover img {
   filter: drop-shadow(0 0 4px var(--clr)) drop-shadow(0 0 8px var(--clr));
   transform: scale(1.1);
 }
 
+.tech-list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    cursor: pointer;
+}
+.tech-list img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    position: relative;
+    z-index: 5;
+    filter: none;
+}
+
 @media  screen and (min-width: 834px) and (max-width: 1366px){
 .tech-list img {
-    width: 50px;
     height: 50px;
     object-fit: contain;
     position: relative;
