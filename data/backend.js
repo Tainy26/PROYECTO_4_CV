@@ -26,7 +26,7 @@ export const backendList = [
     },
     {
         id: 6,
-        logo: "/icons/chatbot.png",
+        logo: "/icons/chatbot.webp",
         title: "chatbot"
     },
 

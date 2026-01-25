@@ -39,19 +39,19 @@ export const portfolioList = [
         id: 5,
         title: "Sueños Valenti",
         description: "This project consists of creating a small, responsive CV using JavaScript components. Built with VITE, the project follows a component-based architecture to ensure modularity and maintainability.",
-        image: "/images/cv.webp",
+        image: "/images/suenosvalenti.webp",
         tech: ["HTML5", "CSS3", "JavaScript"],
-        github: "https://github.com/Tainy26/PROYECTO_4_CV.git",
-        link: "https://proyect-3-pinterest.vercel.app"
+        github: "https://github.com/Tainy26/Tarea_1_Suenos_Valenti.git",
+        link: "https://suenosvalenti.vercel.app"
     },
     {
         id: 6,
         title: "We Are Mamba",
         description: "This project consists of creating a small, responsive CV using JavaScript components. Built with VITE, the project follows a component-based architecture to ensure modularity and maintainability.",
-        image: "/images/cv.webp",
+        image: "/images/mamba.webp",
         tech: ["HTML5", "CSS3", "JavaScript"],
-        github: "https://github.com/Tainy26/PROYECTO_4_CV.git",
-        link: "https://proyect-3-pinterest.vercel.app"
+        github: "#",
+        link: "#"
     },
     
 ];
