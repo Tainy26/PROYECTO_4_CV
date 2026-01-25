@@ -11,7 +11,7 @@ export const CloudDevOps = () => {
   return `
     <div id="clouddevops">
             <div class="knowledge-container">
-                <h1><span>$</span><span>{</span>Cloud - DevOps<span>()</span><span>}</span></h1>
+                <h1><span>$</span><span>{</span>Cloud - DevOps<span>( )</span><span>}</span></h1>
                 <ul class="tech-list">
                 ${cloudDevOpsHTML}
                 </ul>

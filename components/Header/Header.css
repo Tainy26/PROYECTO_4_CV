@@ -84,7 +84,7 @@ body:not(.dark-theme) #theme-toggle:hover {
 }
 
     #logo-page{
-    width: 45px;
+    width: 40px;
 }
     #theme-toggle {
     width: 55px;
@@ -94,7 +94,5 @@ body:not(.dark-theme) #theme-toggle:hover {
 .right-content{
     padding-right: 40px;
 }
-
-
 
 }

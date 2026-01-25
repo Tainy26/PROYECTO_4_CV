@@ -69,6 +69,9 @@
 }
 
 .knowledge-container h1{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
     margin: 0;
     color: var(--text-color);
 }
@@ -139,6 +142,12 @@
 #about{
     height: auto;
 }
+
+.knowledge-container h1{
+    font-size: 22px;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
 }
 
 @media  screen and (max-width: 430px){
@@ -151,10 +160,16 @@
 
 .description{
     padding-top: 40px;
+
 }
 
 .description h1{
-    font-size: 22px;
+    font-size: 21px;
+}
+
+.about-container > .description span{
+    font-size: 25px;
+    color: rgb(255, 149, 0);
 }
 
 .description p{
@@ -162,8 +177,8 @@
     
 }
 
-.knowledge-container h2{
-    font-size: 20px;
+.knowledge-container h1{
+    font-size: 18px;
     padding-top: 10px;
     margin-bottom: 0;
 }
@@ -177,6 +192,16 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+}
+
+.knowledge-container span:nth-of-type(1),span:nth-of-type(2), span:nth-of-type(4){
+    color: rgb(0, 162, 255);
+    font-size: 20px;
+}
+
+.knowledge-container span:nth-of-type(3){
+    color: rgb(223, 4, 190);
+    font-size: 17px;
 }
 
 }

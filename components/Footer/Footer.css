@@ -4,6 +4,11 @@
 .linkedin { --clr: #029eff; }
 .twitter { --clr: #5d5a5d; }
 
+.img-footer > .instagram > img{
+  padding-top: 1.5px;
+  width: 25px;
+}
+
 .img-footer img {
   width: 24px;
   height: 24px;

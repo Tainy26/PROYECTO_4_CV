@@ -11,7 +11,7 @@ export const Database = () => {
   return `
     <div id="database">
             <div class="knowledge-container">
-                <h1><span>$</span><span>{</span>Databases<span>()</span><span>}</span></h1>
+                <h1><span>$</span><span>{</span>Databases<span>( )</span><span>}</span></h1>
                 <ul class="tech-list">
                 ${databasesHTML}
                 </ul>

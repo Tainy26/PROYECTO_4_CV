@@ -11,7 +11,7 @@ export const Backend = () => {
   return `
     <div id="backend">
             <div class="knowledge-container">
-                <h1><span>$</span><span>{</span>Backend<span>()</span><span>}</span></h1>
+                <h1><span>$</span><span>{</span>Backend<span>( )</span><span>}</span></h1>
                 <ul class="tech-list">
                 ${backendHTML}
                 </ul>
