@@ -50,8 +50,8 @@ export const portfolioList = [
         description: "This project consists of creating a small, responsive CV using JavaScript components. Built with VITE, the project follows a component-based architecture to ensure modularity and maintainability.",
         image: "/images/mamba.webp",
         tech: ["HTML5", "CSS3", "JavaScript"],
-        github: "#",
-        link: "#"
+        github: "https://github.com/Tainy26/Tarea_DIW.git",
+        link: "https://wearemamba.vercel.app"
     },
     
 ];
