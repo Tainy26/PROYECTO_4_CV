@@ -25,10 +25,10 @@
 .container1 img{
     display: flex;
     align-items: center;
-    width: 560px;
+    width: 500px;
     height: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 80px;
+    padding-left: 30px;
 }
 .titles-container{
     padding-bottom: 15px;
@@ -116,9 +116,9 @@
 }
 
 .number-page  a img{
-    position: relative;
-    top: 0px;
-    right: 0px;
+    position: absolute;
+    bottom: 10px;
+    right: -53px;
     width: 80px;
     height: 80px;
     cursor: pointer;
@@ -175,6 +175,10 @@
     left: -15px;
 }
 
+.number-page  a img{
+    bottom: 0px;
+    right: -100px;
+}
     
 }
 
@@ -188,7 +192,8 @@
 
     .main-container img{
     width: 430px;
-    padding-bottom: 0;
+    padding: 0;
+    padding-top: 10px;
 }
 
     .container1{
